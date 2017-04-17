@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:1000px){
+
+}
+@media (max-width:675px){
+/*首页。头部*/
+body{width:98%;margin:0 auto;}
+.header{
+	width:100%;
+	height:auto;
+	}
+.top{
+	width:100%;
+	height:auto;
+	background:url(../images/top_bg.png) repeat-x;
+	}
+.top_main{
+	width:100%;
+	margin:auto;
+	height:auto;
+	text-align:center;
+	}
+.logo{
+	width:auto;
+	height:auto;
+	float:none;
+	}
+.telephone{
+  display:none;
+	}
+.head {height:auto;}
+.head .nav{
+	width:100%;
+	height:auto;
+	line-height:60px;
+	background-color:#24a9e2;
+	}
+	.nav li .erji {display:none;}
+.head .nav{
+	width:100%;
+	margin:auto;
+	height:auto;
+	overflow: hidden;
+	}
+.head .nav li{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#fff;
+	display:block;
+	padding:0px 0px;
+	float:left;
+	height:50px;
+	line-height:50px;
+	width:50%;
+	}
+.nav li .erji p {
+    display: none;
+}
+.flex-direction-nav {
+  display: none;
+}
+.main {
+    width: 100%;
+}
+.main_oneleft {
+    border: 1px solid #ededed;
+    float: auto;
+    height: auto;
+    width: 100%;
+}
+
+.main_oneright {
+    border: 1px solid #ededed;
+    float: auto;
+    height: auto;
+    width: 100%;
+}
+.main_title {
+    height: auto;
+    width: 100%;
+}
+.li_name {
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+}
+.li_date {
+    color: #777;
+    float: right;
+    height: 34px;
+    text-align: right;
+    width: 30%;
+}
+.main_onerightcon ul li {
+  height:40px;
+  line-height:40px;
+}
+.main_twoleft {
+  display: none;
+} 
+.main_tworight {
+    float: right;
+    height: auto;
+    width: 100%;
+}
+
+.main_tworight_con {
+    height: auto;
+    line-height: 30px;
+}
+
+.main_tworight_c ul li {
+    color: #666;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 24px;
+    width: 100%;
+}
+
+.main_three ul li {
+    float: left;
+    margin: 13px;
+    position: relative;
+    width: 42%;
+}
+.main_three ul li img {
+    height: auto;
+    width: 100%;
+}
+.img_bt {
+    bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 99%;
+    padding-left:1%;
+    z-index: 1;
+    top: auto;
+}
+.footer {
+    height: auto;
+}
+.footer_main {
+    width: 100%;
+}
+
+/*二级页面*/
+.banner_aa {
+    height: auto;
+    margin: 10px auto;
+    width: 100%;
+}
+.banner_aa img{
+    height: auto;
+    width: 100%;
+}
+.location {
+    width: 100%;
+    text-align: right;
+}
+.sub_main {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+.sub_mainleft {
+    width: 100%;
+}
+.sub_mltimg {
+    height: auto;
+    width: 100%;
+}
+
+.sub_mainright {
+    background:none;
+    padding: 0px;
+    width: 100%;
+}
+
+.sub_mainright ul li {
+    float: left;
+    height: auto;
+    margin: 5px;
+    position: relative;
+    width: 47%;
+}
+.sub_mainright ul li img {
+    height: auto;
+    width: 100%;
+}
+.sub_caseimg_bt {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    top: auto;
+    bottom:0%;
+}
+.paging {
+  width: 100%;
+}
+
+.contractme {
+    margin:0px;
+    padding:10px;
+}
+
+.map {
+    width:100%;
+    border:none;   
+}
+.map dd img{
+    width: 100%;
+}
+.ctme {
+    float: none;
+    width: 100%;
+    clear: both;
+}
+
+.solution {
+    background: none;
+    float: left;
+    height: auto;
+    padding: 0px;
+    margin:0px 10px;
+    width: 90%;
+}
+.form_name {
+    width:30%;
+}
+.form_text {
+    width: 60%;
+}
+.solution form {
+    margin-top: 10px;
+}
+.textarea {
+    height: 100px;
+    padding-left: 10px;
+    resize: none;
+    width: 60%;
+}
+
+
+.sub_news {
+    background: none;
+    padding: 30px;
+    width: 100%;
+}
+.sub_news {
+    padding:0px;
+
+}
+
+.sub_news ul li {
+    height: auto;
+    margin: 5px;
+    width: 46%;
+    float:left;
+}
+.sub_newsimg {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.sub_newsimg img {
+    height: auto;
+    width: 100%;
+}
+.sub_news dl {
+    width:100%;
+    height: auto;
+}
+.sub_news dl dd{
+    display: none;
+}
+.sub_newsbt {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sub_newsdate {
+    display:none;
+}
+.newsc {
+    width:100%;
+    padding: 0px;
+    background:none;
+}
+.newsc_title {
+    height:auto;
+}
+
+.newsc dl dd img {
+    width:100%;
+}
+.newsc dl dd {
+    padding:0px 10px;
+    line-height: 30px; 
+}
+.text_02 {
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text_03 {display:none;}
+.solution dl dd img{
+    width:100%;      
+}
+}
