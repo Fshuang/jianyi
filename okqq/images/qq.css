@@ -1,0 +1,33 @@
+
+
+/* QQå®¢æœ */
+
+
+
+.QQbox{ z-index:99; width: 100px; left: 0px; top:300px; position: absolute;}
+
+.QQbox .press{ right: 0; border: none; cursor: pointer;width: 33px; height: 181px;position: absolute;}
+
+.QQbox .Qlist{ left: 0; background: url(siderIM_bg.gif) padding:5px;}
+
+.QQbox .Qlist .b{ float: right; height: 6px; width: 100px; font-size: 1px; }
+
+.QQbox .Qlist .infobox{ text-align:center; background:#bdc5cb; background-image:url(siderIM_infobox.gif); background-repeat:no-repeat;  padding:5px; line-height:14px; color:#000; font-weight:700;}
+
+.QQbox .Qlist .t{ background:url(siderIM_title.png); height:34px;}
+
+.QQbox .Qlist .b{ background:url(siderIM_bottom.gif); height:9px; overflow:hidden; }
+
+.QQbox .Qlist .con{width: 100%; padding: 10px 0px 10px 0px;}
+
+.QQbox .Qlist .con h2{ height: 22px; font: bold 12px/22px "å®‹ä½“"; background: url(siderIM_bg.gif) repeat-y -163px 0; border: 1px solid #3a708d; text-align: center; color:#fff;}
+
+
+
+.QQbox .Qlist .con ul li{  line-height:30px; padding-left:5px; list-style: none outside none;}
+.QQbox .Qlist .con ul li a{color:#666;padding-left:5px;}
+
+
+/*QQ END*/
+.QQbox .Qlist .con ul li img{border:1px solid #ccc;}
+
